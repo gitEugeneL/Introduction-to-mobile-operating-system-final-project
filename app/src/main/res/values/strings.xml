@@ -43,4 +43,10 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="start_game_again">Start game again</string>
+    <string name="start_basic_game">Start basic game</string>
+    <string name="start_generated_game">Start generated game</string>
+    <string name="gamesize">GameSize:</string>
+    <string name="_5">5</string>
+    <string name="restart_game">restart game</string>
 </resources>

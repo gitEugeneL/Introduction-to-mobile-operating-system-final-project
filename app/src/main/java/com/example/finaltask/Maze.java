@@ -1,5 +1,4 @@
 package com.example.finaltask;
-
 import java.util.Arrays;
 
 public class Maze {

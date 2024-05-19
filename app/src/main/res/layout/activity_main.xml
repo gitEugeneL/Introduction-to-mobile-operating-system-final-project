@@ -18,6 +18,16 @@
         android:layout_marginTop="16dp"/>
 
     <Button
+        android:id="@+id/buttonRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_shadow_start_color"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/restart_game"
+        android:layout_marginTop="200sp"/>
+
+    <Button
         android:id="@+id/buttonBottom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,7 +39,7 @@
         android:id="@+id/buttonLeft"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
         android:layout_marginStart="16dp"/>
 
@@ -37,9 +47,23 @@
         android:id="@+id/buttonRight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
-        android:layout_marginEnd="16dp"/>
+        android:layout_marginEnd="16dp"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="298dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:ignore="RelativeOverlap" />
 
     <TextView
         android:id="@+id/textViewCenter"
@@ -47,6 +71,6 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="24sp"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true" />
 
 </RelativeLayout>
